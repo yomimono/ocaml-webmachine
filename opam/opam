@@ -21,7 +21,6 @@ build-test: [
 ]
 build-doc: [ "ocaml" "setup.ml" "-doc" ]
 depends: [
-  "calendar" {>= "2.03.2"}
   "cohttp" {>= "0.21.0"}
   "dispatch" {>= "0.3.0"}
   "ocamlfind" {build}
